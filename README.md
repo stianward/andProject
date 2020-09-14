@@ -2,6 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
 
+
+- Firebase cloud firestore
+- Boostrap 4 CDN GOV.Co
+- Font awesome
+
+
+**Secciones implementadas**
+
+- Trámites más usados
+- Queremos conocer tu opinión
+- Otros temas de interés
+
+![alt text](https://github.com/stianward/andProject/blob/master/Documentacion/tu-opinion.PNG)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
