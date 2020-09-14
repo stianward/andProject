@@ -14,7 +14,21 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Queremos conocer tu opinión
 - Otros temas de interés
 
+Sección QUEREMOS CONOCER TU OPINION
+
 ![alt text](https://github.com/stianward/andProject/blob/master/Documentacion/tu-opinion.PNG)
+
+Sección TRAMITES MAS USADOS
+
+![alt text](https://github.com/stianward/andProject/blob/master/Documentacion/tramites.PNG)
+
+Sección OTROS TEMAS DE INTERES
+
+![alt text](https://github.com/stianward/andProject/blob/master/Documentacion/otrostemas.PNG)
+
+Consola 
+
+![alt text](https://github.com/stianward/andProject/blob/master/Documentacion/json.PNG)
 
 
 ## Development server
