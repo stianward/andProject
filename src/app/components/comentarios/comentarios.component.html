@@ -1,0 +1,26 @@
+<div class="card border border-primary" style=" border-radius: 1rem; padding:1em; box-shadow:0px 2px 5px grey;">
+    <div style="padding: 1rem;">
+        <h3>Cuentános</h3>
+        <p class="description-govco">¿Cómo podemos mejorar GOV.CO?</p>
+        <p>Estamos construyendo este espacio para ti y tú opinión nos ayuda a crecer.</p>
+
+    </div>
+    <div class="card-body mt-2">
+
+        <form (ngSubmit)="crearComentario() " name="formularioComentarios">
+            <textarea [formControl]="validarComentario" class="form-control" rows="10" placeholder="Escribe aquí tu opinión." 
+                name="comentario" [(ngModel)]="comentarioObt.comentario" maxlength="255" required 
+                style="background-color:#E5EEFB; border-radius: 1rem; ">
+
+                </textarea>
+
+            <button [disabled]="!validarComentario.valid" href="/" class="btn btn-outline-primary rounded-pill btn-block mt-3" (click)="limpiar()">Enviar mi
+                opinión</button>
+
+        </form>
+
+
+
+    </div>
+
+</div>

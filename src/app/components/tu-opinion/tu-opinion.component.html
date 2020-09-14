@@ -1,0 +1,49 @@
+<div class="container-fluid border mt-5" style="width: 70%; ">
+<div class="row" style="padding: 1rem;">
+    <h2>Queremos conocer tu opinion</h2>
+
+<div class="col-lg-8 ">
+
+<div class="card" *ngFor="let item of opinion | async">
+    <div class="card-header">
+<h5 style="background-color: darkorange;padding:0.2rem">{{item.tituloEstado}} </h5>
+
+    </div>
+    <div class="card-body" *ngFor="let item of opinion | async">
+        <p class="card-text"><strong>{{item.tituloDescriptivo}}</strong></p>
+        <p *ngFor="let item of opinion | async">{{item.descripcion}}</p>
+        <p *ngFor="let item of opinion | async" style="text-align: right;">{{item.participantes}} Colombianos participando</p>
+
+    </div>
+</div>
+
+
+
+</div>
+
+<!--FORMULARIO TÚ OPINION-->
+
+<div class="col-lg-4 " >
+<div class="card" style="padding:1rem">
+<div class="car-header" >
+    <h4>cuentanos</h4>
+    <h5>como podemos mejorar</h5>
+    <p>scscsc</p>
+
+</div>
+<div class="card-body" >
+<textarea  class="form form-control "rows="5" cols="10" placeholder="Escribe aquí tú opinión"></textarea>
+<button class="btn btn-primary rounded btn-block mt-3">Enviar mi opnión</button>
+
+</div>
+    
+</div>
+    
+</div>
+
+    
+</div>
+
+
+
+</div>

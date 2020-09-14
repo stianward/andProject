@@ -1,0 +1,14 @@
+ 
+<div class="card" *ngFor="let item of obtTramites">
+    <div class="card-body">
+        <p class="subtitle-govco">{{item.titulo}}</p>
+        <p class="card-text">{{item.entidad}}</p>
+        <div class="row">
+            <div class="col-lg-4"><p class="text-{{item.colorEstado}}">{{item.estado}} <i class='fas fa-arrow-alt-circle-right text-{{item.colorEstado}}'></i></p></div>
+            <div class="col-lg-4"><p class="text-{{item.colorCosto}}"><i class='fab fa-bitcoin text-{{item.colorCosto}}'></i>{{item.costo}}</p></div>
+            <div class="col-lg-4"><p><a class="btn btn-low" href="{{item.enlace}}">Ver todo el trámite</a></p></div>    
+        </div>
+        
+    </div>
+</div>
+

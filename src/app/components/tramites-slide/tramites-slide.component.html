@@ -1,0 +1,11 @@
+<div class="card" style="border-radius:1rem;" *ngFor="let item of obtTramitesSlide">
+    <div class="card-header">
+    <p>Los tramites mas usados <i  class="fas fa-chevron-down" style="font-size:20px"></i></p>
+    </div>
+    <div class="card-body">
+    <h3>{{item.titulo}}</h3>
+    <p>{{item.descripcion}}</p>
+    <p class="text-{{item.colorEstado}}">{{item.estado}} <i class='fas fa-arrow-alt-circle-right text-{{item.colorEstado}}'></i></p>
+    </div>
+    </div>
+            

@@ -1,0 +1,19 @@
+<h2>Queremos conocer tu opinión </h2>
+<div class="card" *ngFor="let item of obtTarjetas" style="padding:0.1rem; border-bottom-color:#3366CC;">
+    <div class="card-header">
+
+
+        <h5 style="color:#fff;padding:0.4rem" class="bg-color-{{item.color}}">{{item.tituloEstado}} </h5>
+
+    </div>
+    <div class="card-body">
+        <p class="description-govco">{{item.tituloDescriptivo}}</p>
+        <span class="card-text">{{item.descripcion}}</span>
+        <p style="text-align: right;">{{item.participantes}} Colombianos participando</p>
+
+    </div>
+</div>
+
+
+<p style="text-align: right;" class="mt-2"><a href="/">Conocer otros ejercicios de participación</a><i
+        class="fas fa-arrow-right" style='font-size:20px; color:#3366CC'></i></p>
